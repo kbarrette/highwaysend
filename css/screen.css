@@ -1,0 +1,34 @@
+body {
+  background: #eee5dd;
+  padding-bottom: 100px;
+  padding-top: 70px;
+}
+
+/* Set page width to 730px (768px is Bootstrap's 'xs' dimension) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+img.banner {
+  margin-bottom: 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.body-link {
+  color: #993200;
+}
+
+.nav-link {
+  font-size: 150%;
+}
+
