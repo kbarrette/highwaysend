@@ -15,6 +15,12 @@ body {
   }
 }
 
+h1 {
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 75px !important;
+  margin-bottom: 20px;
+}
+
 h2  {
   border-bottom: 1px solid #993200;
 }
