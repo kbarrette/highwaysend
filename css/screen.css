@@ -37,4 +37,5 @@ h2  {
 
 a, a:hover, a:focus {
   color: #993200 !important;
+  font-weight: bold;
 }
