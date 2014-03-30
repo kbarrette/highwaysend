@@ -23,20 +23,20 @@ h1 {
 
 h2  {
   border-bottom: 1px solid #993200;
-  font-family: 'IM Fell DW Pica', serif;
 }
 
-.container {
-  background-color: rgba(255, 255, 255, 0.9);
+.body-container {
+  background-color: rgba(225, 225, 225, 0.9);
   border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 50px;
 }
 
-a, a:hover, a:focus {
+.body-container a, a:hover, a:focus {
   color: #993200 !important;
   font-weight: bold;
 }
