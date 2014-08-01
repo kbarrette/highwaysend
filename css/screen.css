@@ -4,8 +4,6 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 100px;
-  padding-top: 70px;
 }
 
 /* Set page width to 730px (768px is Bootstrap's 'xs' dimension) */
@@ -15,10 +13,9 @@ body {
   }
 }
 
-h1 {
+.navbar-brand {
   font-family: 'IM Fell DW Pica', serif;
-  font-size: 75px !important;
-  margin-bottom: 20px;
+  font-size: 35px !important;
 }
 
 h2  {
@@ -27,7 +24,6 @@ h2  {
 
 .body-container {
   background-color: rgba(225, 225, 225, 0.9);
-  border-radius: 5px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -39,4 +35,9 @@ h2  {
 .body-container a, a:hover, a:focus {
   color: #993200 !important;
   font-weight: bold;
+}
+
+.navbar-footer {
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
