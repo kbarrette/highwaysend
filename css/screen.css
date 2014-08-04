@@ -18,6 +18,12 @@ body {
   font-size: 35px !important;
 }
 
+h1 {
+  padding: 0px;
+  margin: 0px;
+  line-height: 20px;
+}
+
 h2  {
   border-bottom: 1px solid #993200;
 }
