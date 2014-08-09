@@ -48,6 +48,15 @@ h2  {
   margin-bottom: 0px;
 }
 
+.navbar-footer a, a:hover, a:focus {
+  color: #993200 !important;
+  padding-right: 15px !important;
+}
+
+.navbar-footer p {
+  margin-left: 15px !important;
+}
+
 .fluid-wrapper {
   height: 0px;
   padding-top: 25px;
