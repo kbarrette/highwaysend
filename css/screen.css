@@ -47,3 +47,25 @@ h2  {
   margin-top: 20px;
   margin-bottom: 0px;
 }
+
+.fluid-wrapper {
+  height: 0px;
+  padding-top: 25px;
+  position: relative;
+}
+
+.fluid-wrapper.youtube {
+  padding-bottom: 56.25%; /* 16:9 */
+}
+
+.fluid-wrapper.bandcamp {
+  padding-bottom: 120px;
+}
+
+.fluid-wrapper iframe {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
