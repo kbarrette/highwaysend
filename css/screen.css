@@ -38,7 +38,7 @@ h2  {
   padding-top: 50px;
 }
 
-.body-container a, a:hover, a:focus {
+.body-container a, .body-container a:hover, .body-container a:focus {
   color: #993200 !important;
   font-weight: bold;
 }
@@ -48,7 +48,7 @@ h2  {
   margin-bottom: 0px;
 }
 
-.navbar-footer a, a:hover, a:focus {
+.navbar-footer a, .navbar-footer a:hover, .navbar-footer a:focus {
   color: #993200 !important;
   padding-right: 15px !important;
 }
