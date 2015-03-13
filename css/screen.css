@@ -84,8 +84,15 @@ blockquote {
 }
 
 .social-links {
-  font-size: 55px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+.social-links .fa {
+  font-size: 55px;
+}
+
+.social-links div {
+  display: inline-block;
+  padding: 5px;
+}
