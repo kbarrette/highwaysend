@@ -8,7 +8,7 @@
 
     <link href="favicon.ico?v=2" rel="icon">
 
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" >
     <link href="//fonts.googleapis.com/css?family=IM+Fell+DW+Pica" rel="stylesheet" type="text/css">
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" >
@@ -17,46 +17,24 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html#"><h1>Highway's End</h1></a>
-      </div>
-
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html#videos">Videos</a></li>
-          <li><a href="index.html#music">Music</a></li>
-          <li><a href="index.html#shows">Shows</a></li>
-          <li><a href="index.html#bio">Bio</a></li>
-          <li><a href="press.html">Press</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-        <ul></ul>
-      </div>
-    </nav>
-
     <div class="container body-container">
-      {{ content }}
-    </div>
+      <div class="header">
+        <div class="navlinks text-left pull-right">
+          <a href="index.html">Home</a>
+          |
+          <a href="press.html">Press / Bio</a>
+        </div>
+        <div>
+          <h1>Highway's End</h1>
+        </div>
+      </div>
 
-    <nav class="navbar navbar-inverse navbar-static-top navbar-footer" role="navigation">
-      <p class="navbar-text navbar-left">
+      {{ content }}
+
+      <div class="footer text-center">
         &copy; Highway's End 2015
       </p>
-
-      <p class="navbar-text navbar-right">
-        <a href="https://www.youtube.com/user/highwaysendband"><i class="fa fa-youtube fa-lg"></i></a>
-        <a href="http://twitter.com/highwaysend"><i class="fa fa-twitter-square fa-lg"></i></a>
-        <a href="http://facebook.com/highwaysend"><i class="fa fa-facebook-square fa-lg"></i></a>
-        <a href="http://eepurl.com/N3JDH"><i class="fa fa-envelope fa-lg"></i></a>
-      </p>
-    </nav>
+    </div>
 
     <script src="//code.jquery.com/jquery.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>

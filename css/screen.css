@@ -13,48 +13,41 @@ body {
   }
 }
 
-.navbar-brand {
-  font-family: 'IM Fell DW Pica', serif;
-  font-size: 35px !important;
-}
-
 h1 {
-  padding: 0px;
-  margin: 0px;
-  line-height: 20px;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 55px !important;
+  font-weight: bold;
 }
 
-h2  {
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header {
   border-bottom: 1px solid #993200;
+  margin-bottom: 15px;
+}
+
+.footer {
+  margin-top: 30px;
+  font-weight: bold;
 }
 
 .body-container {
-  background-color: rgba(225, 225, 225, 0.9);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-color: rgba(225, 225, 225, 0.8);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .section {
-  padding-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .body-container a, .body-container a:hover, .body-container a:focus {
   color: #993200 !important;
   font-weight: bold;
-}
-
-.navbar-footer {
-  margin-top: 20px;
-  margin-bottom: 0px;
-}
-
-.navbar-footer a, .navbar-footer a:hover, .navbar-footer a:focus {
-  color: #993200 !important;
-  padding-right: 15px !important;
-}
-
-.navbar-footer p {
-  margin-left: 15px !important;
 }
 
 .fluid-wrapper {
@@ -69,7 +62,7 @@ h2  {
 }
 
 .fluid-wrapper.bandcamp {
-  padding-bottom: 120px;
+  padding-bottom: 307px;
 }
 
 .fluid-wrapper iframe {
@@ -89,3 +82,10 @@ blockquote {
   margin-bottom: 30px;
   border: none;
 }
+
+.social-links {
+  font-size: 55px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
