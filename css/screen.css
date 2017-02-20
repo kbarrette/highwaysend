@@ -75,6 +75,11 @@ h3 {
 
 td.date {
   white-space: nowrap;
+  width: 1%;
+}
+
+td {
+  width: 99%;
 }
 
 blockquote {
